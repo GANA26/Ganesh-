@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ganesh Sanjiv Jagdale | Vintage Portfolio</title>
+
+  <!-- Google Fonts for Vintage Look -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Cormorant Garamond', serif;
+      background-color: #f4f1e8;
+      color: #3b2f2f;
+      line-height: 1.8;
+      padding-bottom: 2rem;
+    }
+
+    header {
+      background-color: #d9c7a7;
+      border-bottom: 2px solid #b19570;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #4e3d2c;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #4e3d2c;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #a5573e;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 3rem auto;
+      background-color: #fffaf1;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(70, 50, 20, 0.1);
+      border: 1px solid #d2b48c;
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 1rem;
+      font-size: 2.2rem;
+      color: #7a4e2e;
+    }
+
+    #welcome {
+      text-align: center;
+      background-color: #f5e9dc;
+      border: 1px solid #ceb898;
+    }
+
+    #welcome img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 1rem 0;
+      border: 3px solid #b1967d;
+      transition: transform 0.3s ease;
+    }
+
+    #welcome img:hover {
+      transform: scale(1.05);
+    }
+
+    #welcome video {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
+      border: 1px solid #b9a38c;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background-color: #d9c7a7;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 1rem;
+      color: #3b2f2f;
+      border-top: 1px solid #b19570;
+    }
+
+    footer a {
+      color: #6d4c41;
+      text-decoration: none;
+    }
+
+    .contact-links p {
+      margin: 0.5rem 0;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        gap: 0.6rem;
+        flex-wrap: wrap;
+      }
+
+      section {
+        margin: 1.5rem 1rem;
+        padding: 1.5rem;
+      }
+
+      nav h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#welcome">Welcome</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#personal">Personal</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Welcome -->
+  <section id="welcome">
+    <h2>Welcome! I'm Ganesh Sanjiv Jagdale 👋</h2>
+    <p>Glad to have you visit my digital space.</p>
+    <img src="g.jpg" alt="Ganesh Sanjiv Jagdale" />
+    <video controls>
+      <source src="videos/intro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Ganesh Sanjiv Jagdale</p>
+    <p><strong>Location:</strong> Maharashtra, India</p>
+    <p><strong>Education:</strong> Pursuing B.Tech in EXCS from St John College of Engineering and Management</p>
+    <p><strong>Languages:</strong> English, Hindi, Marathi</p>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Gesture Vocalizer Device</li>
+      <li>Certificate in Cybersecurity</li>
+    </ul>
+  </section>
+
+  <!-- Goals -->
+  <section id="goals">
+    <h2>Future Goals</h2>
+    <p>I aim to become a full-stack web developer and build real-world applications that solve problems. I also plan to contribute to open-source projects and help others learn coding.</p>
+  </section>
+
+  <!-- Personal -->
+  <section id="personal">
+    <h2>A Bit About My Personal Side</h2>
+    <p><strong>Hobbies:</strong> Editing, Swimming, Photography – great ways to learn and relax.</p>
+    <p><strong>Favorite Books:</strong> “Atomic Habits”, “The Lean Startup” – excellent for self-growth.</p>
+    <p><strong>Startups I admire:</strong> Notion, Figma – they focus on user experience and collaboration.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <p><strong>Phone:</strong> <a href="tel:9373441208">9373441208</a></p>
+      <p><strong>Email:</strong> <a href="mailto:223ganesh7003@sjcem.edu.in">223ganesh7003@sjcem.edu.in</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/GANA26" target="_blank">github.com/GANA26</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/krish-r-080478297/" target="_blank">linkedin.com/in/krish-r</a></p>
+      <p><strong>Instagram:</strong> <a href="https://www.instagram.com/gana_u_m1d?igsh=YW9zcGtibmszOHlq" target="_blank">@gana_u_m1d</a></p>
+      <p><strong>Location:</strong> <a href="https://www.google.com/maps/place/Maharashtra" target="_blank">Maharashtra, India</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ✍️ by Ganesh Sanjiv Jagdale | © 2025</p>
+    <p>
+      <strong>GitHub:</strong> <a href="https://github.com/GANA26" target="_blank">GANA26.github.io/GANA26/</a>
+    </
